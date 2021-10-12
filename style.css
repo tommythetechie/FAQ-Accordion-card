@@ -1,10 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	background-color: hsl(273, 75%, 66%);
+}
 .wrapper {
 	width: 375px;
 	margin: 0 auto;
 }
+header img {
+	
+}
+section {
+	background-color: #fff;
+	padding: 100px 20px 25px 20px;
+	position: relative;
+	top: -100px;
+}
+section h1 {
+	text-align: center;
+}
 .content {
-    display: none;
+    /*display: none;*/
+}
+.faq {
+	display: block;
 }
