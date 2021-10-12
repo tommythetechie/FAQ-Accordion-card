@@ -17,10 +17,12 @@ header img {
 	
 }
 section {
+	z-index: -1;
 	background-color: #fff;
 	padding: 100px 20px 25px 20px;
 	position: relative;
 	top: -100px;
+	border-radius: 18px;
 }
 section h1 {
 	text-align: center;
