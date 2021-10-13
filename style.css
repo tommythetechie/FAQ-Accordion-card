@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 html {
   box-sizing: border-box;
 }
@@ -8,28 +9,38 @@ html {
 }
 body {
 	background-color: hsl(273, 75%, 66%);
+	font-family: 'Kumbh Sans', sans-serif;
 }
 .wrapper {
 	width: 375px;
 	margin: 0 auto;
 }
+header {
+	display: grid;
+	justify-items: center;
+	
+}
 header img {
+	margin-left: -30px; /*not sure why i had to do this, image is weird*/
 	
 }
 section {
 	z-index: -1;
 	background-color: #fff;
-	padding: 100px 20px 25px 20px;
+	padding: 100px 30px 25px 30px;
 	position: relative;
-	top: -100px;
+	top: -90px;
 	border-radius: 18px;
 }
 section h1 {
 	text-align: center;
 }
 .content {
-    /*display: none;*/
+    display: none;
 }
 .faq {
-	display: block;
+	/*display: block;*/
+}
+hr {
+	margin: 20px 0px;
 }
