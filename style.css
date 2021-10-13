@@ -44,3 +44,27 @@ section h1 {
 hr {
 	margin: 20px 0px;
 }
+
+
+
+@media screen and (min-width: 1440px) {
+    
+	.wrapper {
+		min-width: 860px;
+		margin-top: 250px;
+		background-color: #fff;
+		border-radius: 18px;
+	}
+    .card {
+        min-width: 860px;
+        display: grid;
+		align-items: center;
+        grid-template-columns: 400px 400px;
+		grid-template-rows: 500px; 
+    }
+	section {
+		z-index: 2;
+		background-color: transparent;
+	}
+    
+  }
